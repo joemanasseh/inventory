@@ -1,0 +1,28 @@
+.primary-color{
+    color: rgb(17, 192, 17);
+}
+
+.item{
+    font-weight: 600;
+    color: rgb(17, 192, 17);
+}
+
+.item-detail{
+    font-weight: bold;
+    color: rgb(17, 192, 17);
+}
+#card-header{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.trash-button{
+    margin-top: -10px;
+}
+
+.grand-total{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0;
+    float: right;
+}
+

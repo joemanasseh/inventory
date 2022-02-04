@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./Bootstrap 4.3.1/css/bootstrap.min.css">
+    <script src="./fontawesome-free-5.14.0-web/js/all.min.js"></script>
+    <script src="Bootstrap 4.3.1/js/jquery.js"></script>
+</head>
+<body>
+    <!-- header area start -->
+    <header>
+        <div class="left_area">
+            <h3>Super<span>max</span></h3>
+            <div class="bars">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="right_area dropdown">
+            <a class="nav-link badge text-white logout_btn btn " href="#" style="font-size: 20px;"><img src="./img/user (1).svg" class="user-svg" alt="user-svg"/>&nbsp; kodaauthor
+            <i class="fas fa-caret-down"></i>
+            </a>
+        </div>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">kiss</a>
+            <a class="dropdown-item" href="#">kiss</a>
+        </div>
+    </header>
+    <!-- headder area end -->
+
+    <!-- sidebar start -->
+    <ul class="sidebar">
+        <li>
+            <a href="./index.html" class="active">
+                <i class="fa fa-tachometer-alt"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-server"></i>
+                <span>Shelfs</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-tags"></i>
+                <span>Category</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-shopping-basket">
+                </i><span>Goods</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-users"></i>
+                <span>Customer</span>
+            </a>
+        </li>
+        <li>
+            <a href="./suppliers.html">
+                <i class="fa fa-users"></i>
+                <span>Suppliers</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-shopping-cart"></i>
+                <span>Purchase</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-chart-area"></i>
+                <span>Stock list</span>
+            </a>
+        </li>
+        <li>
+            <a href="./sales.html">
+                <i class="fa fa-paper-plane"></i>
+                <span>Sales</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-cog"></i>
+                <span>Store Setting</span>
+            </a>
+        </li>
+        <li>
+            <a href="../sign-in.html">
+                <i class="fa fa-sign-out-alt"></i>
+                <span>Log out</span>
+            </a>
+        </li>
+    </ul>
+    <!-- sidebar end -->
+
+
+    <!-- main content -->
+    <div class="main">
+       <div class="container">
+
+        <div class="header" style="padding-top: 1rem;">
+            <h4>Dashboard</h4>
+            <hr>
+        </div>
+        
+        <!-- dashboard card start -->
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-primary">
+                                <i class="fas fa-server"></i><span class="text"> 3+</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                Total Shelfs
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-danger">
+                                <i class="fas fa-shopping-basket"></i><span class="text"> 6</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                Total Goods
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-danger">
+                                <i class="fas fa-chart-area"></i><span class="text"> 2922</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                Total Stock Quantity
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-primary">
+                                <i class="fa fa-users"></i><span class="text"> 2+</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                Total Suppliers
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-success">
+                               <i class="fas fa-shopping-cart"></i><span class="text"> 7</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                No of Purchase
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-success">
+                                <i class="far fa-money-bill-alt"></i><span class="text"> 69825</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                Total Purchase Amount
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-success">
+                                <i class="fas fa-shopping-cart"></i><span class="text"> 5</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                No of Sales
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-3 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4 text-success">
+                                <i class="far fa-money-bill-alt"></i><span class="text"> 10016</span>
+                            </h5>
+                            <h1 class="display-5 mt-1 mb-4 text-muted">
+                                Total Sales Amount
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-12 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-md-flex align-items-center">
+                            </div>
+                            <h4 class="card-title">
+                                Top selling Products
+                            </h4>
+                            <h5 class="card-subtitle">
+                                Overview of top selling items
+                            </h5>
+                        </div>
+                            <div class="ml-auto mr-3 mb-3">
+                                <div class="dl">
+                                    <select class="custom-select text-info">
+                                        <option value="0" selected>Monthly</option>
+                                        <option value="0">Weekly</option>
+                                        <option value="0">Daily</option>
+                                        <option value="0">Yearly</option>
+                                    </select>
+                                </div>
+                            </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+        <!-- dashboard card end -->
+
+
+        <!-- table start-->
+
+        <div class=" col-md-12 col-sm-12 card bg-white py-3 px-3">
+            <div>
+                <h5>LOW STOCK COMMODITY LIST</h5>
+            </div>
+            <form class="form-inline pull-right float-right mt-4">
+                <button class="btn btn-md btn-outline-success  my-2" type="submit">Search</button>
+                <input class="form-control ml-3 my-2" type="text" placeholder="Search anything" aria-label="Search">
+              </form>
+              <div class="table-responsive">
+                <table class="table  v-middle mt-3 table-bordered">
+                    <thead>
+                        <tr>
+                          <th class="border-top-o">Product Name</th>
+                          <th class="border-top-o">BatchNo</th>
+                          <th class="border-top-o">Total Quantity</th>
+                          <th class="border-top-o">Selling Price</th>
+                          <th class="border-top-o">Buying Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Civet</td>
+                            <td>222366</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
+            </div>
+        <!-- table end -->
+
+
+        <!-- Footer start -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row text-muted">
+                    <div class="col-6 text-left">
+                        <p class="mb-0">
+                            <a href="#" class="text-muted">
+                                <strong>Designed by Kool-tech concept &copy; 2020</strong>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-6 text-right">
+                        <ul class="list-inline">
+                            <li class="footer-item">
+                                <a href="#" class="text-muted">
+                                    Support
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="text-muted">
+                                    Help center
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="text-muted">
+                                    Privacy
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="text-muted">
+                                    terms of use
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+       </div> 
+    </div>
+
+    
+    <script>
+        $(document).ready(function(){
+            $('.bars').click(function(){
+                $('.sidebar').toggleClass('sidebar_hide');
+                $('.main').toggleClass('slide_main');
+            });
+        });
+    </script>
+</body>
+</html>
